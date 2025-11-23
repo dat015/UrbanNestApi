@@ -1,0 +1,87 @@
+# =========================
+# 1. GENERAL / OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.~*
+
+# =========================
+# 2. VISUAL STUDIO & .NET
+# =========================
+# Build results
+[Bb]in/
+[Oo]bj/
+api/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Visual Studio Code & VS Cache
+.vscode/
+.vs/
+.idea/
+
+# Test results
+TestResults/
+*.trx
+
+# Publish Web Output
+web.config
+appsettings.Local.json
+
+# =========================
+# 3. NODE.JS / NEXT.JS (Frontend)
+# =========================
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# TypeScript
+*.tsbuildinfo
+
+# =========================
+# 4. PYTHON (AI Service)
+# =========================
+# Byte-compiled / Optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+
+# =========================
+# 5. ENVIRONMENT & SECRETS (QUAN TRỌNG)
+# =========================
+# Các file chứa Key, Password, Connection String
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Certificate SSL (nếu có)
+*.pfx
+*.p12
+*.pem
+*.key
