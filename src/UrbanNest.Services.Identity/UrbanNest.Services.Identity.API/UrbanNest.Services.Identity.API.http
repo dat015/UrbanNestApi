@@ -1,0 +1,6 @@
+@UrbanNest.Services.Identity.API_HostAddress = http://localhost:5168
+
+GET {{UrbanNest.Services.Identity.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

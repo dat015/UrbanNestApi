@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using UrbanNest.Services.Apartment.Infrastructure.Data;
 
 namespace UrbanNest.Services.Apartment.API.Controllers;
 
